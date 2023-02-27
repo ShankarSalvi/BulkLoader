@@ -147,7 +147,7 @@ async def start(bot, update):
 async def help(bot, update):
     await update.reply_text(f"How to use BulkLoader?!\n\n2 Methods:\n- send command /link and then send urls, separated by new line.\n- send txt file (links), separated by new line.", True, reply_markup=InlineKeyboardMarkup(START_BUTTONS))
 
-@xbot.on_message(filters.command('link') & OWNER_FILTER & filters.private)
+@xbot.on_message(filters.command('link'))
 async def linkloader(bot, update):
     xlink = await bot.ask(update.chat.id, 'Send your links, separated each link by new line', filters='text', timeout=300)
     if BUTTONS == True:
