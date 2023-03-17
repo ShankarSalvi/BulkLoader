@@ -13,6 +13,9 @@ Telegram Bot to Bulk Downloading list of urls and Upload to Telegram.
 
 [![Group](https://img.shields.io/badge/TG-Group-30302f?style=flat&logo=telegram)](https://t.me/WeebProgrammer)
 
+<a href="https://heroku.com/deploy?template=https://github.com/shankarsalvi/BulkLoader">
+     <img height="30px" src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku">
+  </a>
 ## Credits, and Thanks to
 
 * [Dan Tès](https://t.me/haskell) for his [Pyrogram Library](https://github.com/pyrogram/pyrogram)
